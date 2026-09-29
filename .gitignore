@@ -1,0 +1,20 @@
+# Maven Build Output
+**/target/
+!**/.mvn/wrapper/maven-wrapper.jar
+
+# Generated Models
+**/models/*.bin
+!**/models/.gitkeep
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Reports
+**/target/reports/

@@ -1,0 +1,460 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey there",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hey bot",
+        "howdy",
+        "greetings",
+        "hi there",
+        "hello assistant",
+        "hi customer support",
+        "hey hello",
+        "hiya",
+        "morning hello",
+        "hello there",
+        "hi team",
+        "heyy",
+        "greetings assistant",
+        "hello friend"
+      ],
+      "responses": [
+        "Hello! Welcome to our customer support. How can I assist you today?",
+        "Hi there! Glad you stopped by. What can I help you with right now?",
+        "Greetings! How may I help you with your shopping or orders today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "bye bye",
+        "farewell",
+        "catch you later",
+        "I am leaving now bye",
+        "bye for now",
+        "signing off goodbye",
+        "see ya later",
+        "ending chat goodbye",
+        "cya later",
+        "adios bye",
+        "talk to you later bye",
+        "goodbye assistant",
+        "leaving goodbye",
+        "bye have a good one",
+        "goodbye for today",
+        "gotta go goodbye",
+        "see you soon goodbye"
+      ],
+      "responses": [
+        "Goodbye! Feel free to reach out if you need anything else. Have a wonderful day!",
+        "Thank you for contacting us. Have a great day ahead and take care!",
+        "Bye! Don't hesitate to reach back out if you have any further questions."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks a lot",
+        "thank you so much",
+        "appreciate your help",
+        "much appreciated thank you",
+        "thanks buddy",
+        "cheers thank you",
+        "awesome thanks",
+        "thank you kindly",
+        "many thanks",
+        "thx so much",
+        "grateful for your help",
+        "super helpful thanks",
+        "thanks very much",
+        "thank you for your time",
+        "thanks for the quick answer",
+        "perfect thank you",
+        "thank you assistant",
+        "greatly appreciated thanks",
+        "thanks a million"
+      ],
+      "responses": [
+        "You're very welcome! Is there anything else I can help you with?",
+        "Glad I could help! Let me know if you need assistance with anything else.",
+        "It was my pleasure! Don't hesitate to ask if you have more questions."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order",
+        "check order status",
+        "track my order",
+        "what is the status of my order",
+        "track order #12345",
+        "track my package",
+        "where is my package",
+        "order status for ORD-9921",
+        "status of order number 54321",
+        "check delivery status of order",
+        "where has my order reached",
+        "order tracking update please",
+        "can you track my package",
+        "locate my order package",
+        "track order progress ORD-4321",
+        "what is happening with my order #77123",
+        "check progress of my order",
+        "where is package #12345",
+        "order status lookup 98765",
+        "find current location of my order"
+      ],
+      "responses": [
+        "Your order {order_id} is currently in transit and scheduled to arrive on time. You can check the tracking link sent to your email.",
+        "Order {order_id} has been processed and is currently with our courier partner. Expect delivery in 2-3 business days.",
+        "We checked order {order_id}: it has departed our central fulfillment facility and is heading toward your local distribution hub."
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "cancel my order",
+        "I want to cancel order #98765",
+        "please cancel my purchase",
+        "can I cancel order ORD-1234",
+        "stop and cancel my order",
+        "need to cancel order immediately",
+        "cancel this order please",
+        "request order cancellation",
+        "how do I cancel my order",
+        "cancel order right away",
+        "abort my order ORD-5544",
+        "please cancel order #88412",
+        "cancellation of my order",
+        "I decided to cancel my order",
+        "cancel my order before it ships",
+        "stop order delivery and cancel",
+        "cancel purchase order",
+        "help me cancel order",
+        "order cancellation request",
+        "cancel order now please"
+      ],
+      "responses": [
+        "We have submitted the cancellation request for order {order_id}. You will receive a confirmation email shortly.",
+        "Order {order_id} is being flagged for cancellation. Any pending authorization on your card will be released within 24 hours.",
+        "Your order {order_id} has been successfully canceled. A confirmation receipt has been sent to your registered email address."
+      ]
+    },
+    {
+      "tag": "refund_request",
+      "patterns": [
+        "I want a refund",
+        "refund my money please",
+        "how do I get a refund",
+        "request a refund for my purchase",
+        "give me my money back",
+        "where is my refund",
+        "process my refund request",
+        "need a full refund",
+        "when will I receive my refund",
+        "reimburse my payment refund",
+        "issue a refund to my card",
+        "can I get a refund",
+        "money back refund request",
+        "refund my account",
+        "check refund status",
+        "please refund this charge",
+        "claim my refund",
+        "ask for a refund",
+        "refund transaction right away",
+        "full money refund please"
+      ],
+      "responses": [
+        "Refunds typically take 3 to 5 business days to post back to your original payment method once processed.",
+        "We have initiated your refund request. You will see the credit back on your statement within 3 to 5 business days.",
+        "Your refund has been queued for processing. Depending on your financial institution, funds appear within 5 business days."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "what is your return policy",
+        "how do returns work",
+        "can I return an item",
+        "return window period",
+        "how many days do I have to return",
+        "return policy details",
+        "can I return opened products",
+        "how to exchange an item",
+        "return and exchange policy",
+        "what items are eligible for return",
+        "how do I make a return",
+        "store return policy guidelines",
+        "instructions for returning a product",
+        "do you accept product returns",
+        "send item back for return",
+        "return policy time limit",
+        "can I exchange for a different size",
+        "how to initiate a return",
+        "conditions for product return",
+        "return rules and guidelines"
+      ],
+      "responses": [
+        "We offer a 30-day return policy on all unworn, unopened, and original condition items with tags attached.",
+        "You can initiate a return through your account dashboard within 30 days of delivery. Prepaid return labels are provided!",
+        "Items in original condition can be returned or exchanged within 30 calendar days of receipt for a full refund."
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "how much does shipping cost",
+        "what are your shipping options",
+        "how long does shipping take",
+        "do you offer express shipping",
+        "shipping rates and delivery methods",
+        "is there free shipping",
+        "international shipping rates",
+        "standard shipping delivery time",
+        "overnight shipping options and cost",
+        "what courier handles shipping",
+        "shipping fee to my location",
+        "shipping options available",
+        "do you ship internationally",
+        "expedited shipping cost",
+        "shipping transit days",
+        "estimated shipping time",
+        "flat rate shipping fee",
+        "fast shipping delivery options",
+        "shipping carriers and speeds",
+        "next day shipping delivery"
+      ],
+      "responses": [
+        "Standard shipping takes 3 to 5 business days ($4.99 or free on orders over $50). Expedited 2-day delivery is $12.99.",
+        "We partner with FedEx, UPS, and DHL. Most orders placed before 2 PM EST are dispatched on the same business day.",
+        "Standard delivery takes 3 to 5 business days, while expedited delivery arrives within 48 hours. Tracking is included on all shipments."
+      ]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": [
+        "my payment failed",
+        "credit card was declined on payment",
+        "payment error during checkout",
+        "why was my card charged twice",
+        "duplicate payment charge",
+        "payment method rejected",
+        "cannot complete payment",
+        "payment transaction declined",
+        "billing error during payment",
+        "unauthorized payment charge",
+        "problem with payment checkout",
+        "why did my payment not go through",
+        "trouble paying with credit card",
+        "payment failed at checkout",
+        "payment was not accepted",
+        "charged wrong amount on payment",
+        "card payment failed",
+        "payment processing error",
+        "error processing payment transaction",
+        "payment declined by system"
+      ],
+      "responses": [
+        "If your payment was declined, please verify the expiration date and billing address, or try an alternative method like PayPal.",
+        "In case of duplicate charges, one is typically a temporary authorization hold that drops off automatically within 24-48 hours.",
+        "Please check with your issuing bank if payment errors persist, or try re-entering your card information in checkout."
+      ]
+    },
+    {
+      "tag": "change_address",
+      "patterns": [
+        "change my shipping address",
+        "update delivery address for order",
+        "modify shipping address",
+        "wrong address on my order",
+        "correct my delivery address",
+        "send order to a different address",
+        "update destination address",
+        "change delivery location address",
+        "entered wrong shipping address",
+        "change address before shipment",
+        "edit delivery address on order",
+        "address change request",
+        "modify delivery address for package",
+        "update my shipping address please",
+        "can I change shipping address",
+        "new shipping address for order",
+        "fix incorrect address on order",
+        "change recipient address",
+        "reroute delivery to new address",
+        "need to update my address"
+      ],
+      "responses": [
+        "You can update your shipping address within 1 hour of placing your order directly in 'My Orders' > 'Edit Address'.",
+        "If your order has not dispatched yet, we can modify the delivery address. Please verify your new address details.",
+        "Address modifications can only be applied prior to package dispatch. Contact us immediately with the updated address."
+      ]
+    },
+    {
+      "tag": "product_availability",
+      "patterns": [
+        "is this product in stock",
+        "when will this item be restocked",
+        "check product stock availability",
+        "is this item out of stock",
+        "item inventory check",
+        "product back in stock date",
+        "is this item available in stock",
+        "when do you restock inventory",
+        "check stock for product",
+        "product stock status",
+        "is this item sold out",
+        "notify me when item restocks",
+        "how many items left in stock",
+        "item currently in stock",
+        "when will inventory be restocked",
+        "check availability of product stock",
+        "is item available to purchase",
+        "out of stock item availability",
+        "will you restock this product",
+        "product inventory availability"
+      ],
+      "responses": [
+        "Popular items are typically restocked within 7 to 10 business days. You can click 'Notify Me' on the product page to get an email alert.",
+        "Our warehouse inventory updates in real time on our website. If an item shows 'In Stock', it is ready to ship immediately.",
+        "If an item is out of stock, we expect new shipments every Monday. Feel free to sign up for restock notifications."
+      ]
+    },
+    {
+      "tag": "contact_human_agent",
+      "patterns": [
+        "talk to a human agent",
+        "speak to customer service agent",
+        "connect me to a representative",
+        "I want to talk to a person",
+        "transfer to a live agent",
+        "human customer care agent please",
+        "can I speak with a representative",
+        "connect to real person agent",
+        "transfer to human operator",
+        "speak with a customer service representative",
+        "need human agent assistance",
+        "let me talk to an agent",
+        "real human representative please",
+        "chat with a live agent",
+        "transfer call to agent",
+        "speak to a live person",
+        "agent support representative please",
+        "connect to human representative",
+        "talk to customer care agent",
+        "I need a live representative"
+      ],
+      "responses": [
+        "I am connecting you with a customer support specialist now. Typical wait time is under 3 minutes.",
+        "A live representative will join this chat shortly. Please hold on while I transfer your session details.",
+        "Connecting you to an agent right away! Our representatives are standing by to assist you."
+      ]
+    },
+    {
+      "tag": "business_hours",
+      "patterns": [
+        "what are your business hours",
+        "what time do you open and close",
+        "customer service operating hours",
+        "what are your support working hours",
+        "what time does support open today",
+        "hours of operation for support",
+        "what time do you close",
+        "are you open right now",
+        "call center operating hours",
+        "what days are you open",
+        "weekend operating hours",
+        "what are your opening times",
+        "operating schedule for support",
+        "when does customer support close",
+        "help desk working hours",
+        "what are your working days and hours",
+        "hours for chat support",
+        "are you open on Sunday",
+        "when is telephone support open",
+        "what time do support reps open in morning"
+      ],
+      "responses": [
+        "Our customer support team is available Monday through Friday from 8:00 AM to 8:00 PM EST, and Saturday from 9:00 AM to 5:00 PM EST. Our automated assistant is available 24/7!",
+        "Live chat and phone support operate Monday to Friday, 8 AM - 8 PM EST, and Saturdays 9 AM - 5 PM EST. We are closed on major holidays.",
+        "We are here to help Monday through Friday from 8 AM to 8 PM EST and Saturdays from 9 AM to 5 PM EST. Self-service is open around the clock!"
+      ]
+    },
+    {
+      "tag": "account_help",
+      "patterns": [
+        "how to reset my account password",
+        "cannot log into my account",
+        "locked out of my account",
+        "reset account password",
+        "login issues with my account",
+        "how do I update my account profile",
+        "forgot my account password",
+        "cannot access customer account",
+        "account password reset link",
+        "trouble logging into account",
+        "unlock my user account",
+        "change password for account",
+        "account login problems",
+        "how to delete account",
+        "update account email address",
+        "login verification for account",
+        "create new user account help",
+        "two factor authentication login account",
+        "recover my lost account",
+        "reset credentials for account"
+      ],
+      "responses": [
+        "To reset your password, click 'Forgot Password' on the login page. We'll send a secure password reset link to your registered email.",
+        "You can manage your account settings, saved addresses, and login credentials by heading to 'My Account' -> 'Security Settings'.",
+        "If your account is locked after multiple attempts, wait 15 minutes or click 'Reset Password' to unlock it instantly via email verification."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I want to file a complaint",
+        "lodge an official complaint",
+        "file formal complaint about service",
+        "register a complaint against service",
+        "complaint about terrible customer service",
+        "unacceptable service filing complaint",
+        "how to submit a complaint",
+        "complaint regarding poor product quality",
+        "escalate complaint to management",
+        "file a complaint with customer support",
+        "terrible experience filing formal complaint",
+        "dissatisfied customer lodging complaint",
+        "submit complaint about damaged order",
+        "official grievance and complaint",
+        "unhappy with support file complaint",
+        "complaining about awful service",
+        "manager escalation for complaint",
+        "lodge complaint about rude service",
+        "file serious complaint now",
+        "customer complaint department"
+      ],
+      "responses": [
+        "We are deeply sorry to hear about your experience. Your feedback is taken very seriously. We have logged ticket #CMP-8912 for our management team to review immediately.",
+        "We sincerely apologize for the frustration caused. We hold ourselves to high standards and want to make things right. A senior specialist will review your case.",
+        "Thank you for bringing this to our attention. We are escalating this to our customer quality assurance department to investigate and contact you within 24 hours."
+      ]
+    }
+  ],
+  "fallback": [
+    "I'm sorry, I didn't quite understand that. Could you please rephrase or choose from the suggested topics below?",
+    "I'm not certain what you mean. Would you mind clarifying your question, or picking one of the quick options below?",
+    "Pardon me, I didn't catch that. Could you describe your issue in a slightly different way so I can help?",
+    "I'm having trouble understanding your request. Feel free to try one of the suggestions below or ask to speak with a human agent."
+  ]
+}
